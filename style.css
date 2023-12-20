@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.topleft {
+    width: 75%;
+    margin: auto;
+}
+
+.header{
+    position: absolute;
+}
+
+.background{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0vh;
+}
+
+.background img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.header-body-section{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color:white;
+}
+
+.navbar{
+    font-weight: 500;
+    height: 50px;
+}
+
+.topleft-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lefttext{
+    display: flex;
+    align-items: center;
+}
+
+.lefttext p{
+    padding: 5px;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-weight: 100;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    color: inherit;
+    text-decoration:none;
+}
+
+.zomato-logo{
+    width: 300px;
+}
+
+.topleft-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+
+.header-body{
+    position: relative;
+    top: -50px;
+}
+
+.header-body-section-dis{
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.search-topleft{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 750px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+}
+
+.location-map{
+    color: rgb(230, 139, 139);
+    font-size: 16px;
+}
+
+.caret-up{
+    color: #000;
+}
+
+.location-icon{
+    border: none;
+    font-size: 15px;
+    width: 205px;
+}
+
+.search-part{
+    color: rgb(104, 103, 103);
+    font-size: 18px;
+}
+
+.line{
+    padding: 10px;
+}
+
+.search-part input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
+
+.section-1{
+    margin-top: 40px;
+}
+
+.sectionbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.other-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.topleft-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    padding: 15px;
+    padding-top: 191px;
+    padding-left: 146px;
+    padding-bottom: 5px;
+    margin-top: 550px;
+    margin-left: -145px;
+    justify-content: left;
+    margin-top: 300px;
+}
+
+.item-image{
+    width: 315px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid rgb(214, 213, 213);
+    overflow: hidden;
+}
+
+.item-image img{
+    width: 100%;
+    background-position: 100px;
+}
+
+.items h3,
+.items p{
+    padding-left: 20px;
+}
+
+.items:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+}
+
